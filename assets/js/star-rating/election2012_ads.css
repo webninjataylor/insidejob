@@ -1,0 +1,535 @@
+/* FEATURED AD */
+
+.featuredAd {
+	position:relative;
+}
+
+.featuredAd h3 {
+	position:absolute;
+	left:-5px;
+	top:40px;
+	width:100%;
+	font-size:30px;
+	letter-spacing:1px;
+	color:#FFFFFF;
+}
+
+.featuredAd h3 span {
+	display:inline-block;
+	width:200px;
+	padding:5px;
+	padding-left:15px;
+}
+
+/* TOP VOTED ADS (IMPACT / BELIEVABILITY) */
+
+.topVotedAd {
+	position:relative;
+	margin-bottom:20px;
+}
+
+.topVotedAd h3 {
+	position:absolute;
+	top: 120px;
+    left: -5px;
+    display:inline-block;
+	font-size:16px;
+	letter-spacing:1px;
+}
+
+.topVotedAd h3 span {
+	color:#FFFFFF;
+	padding:5px;
+	padding-left:15px;
+	width:153px;
+	display:inline-block;
+}
+
+.topVotedAd p {
+	line-height:1.4;
+	font-weight:bold;
+}
+
+.topVotedAd .adCandidate {
+	font-weight:normal;
+	font-size:12px;
+}
+
+.adSectionHeader {
+	border-bottom:5px solid #CC3333;
+	font-size:18px;
+	padding: 0px 0px 3px;
+	margin-bottom:5px;
+	font-weight:bold;
+}
+
+/* MAIN VIDEO PAGE */
+
+.adInfo {
+	padding:25px 0px 40px 0px;
+}
+
+.adCandidate {
+	color:#0099cc;
+	line-height:1;
+}
+
+.adVideo {
+	width:660px;
+	height:370px;
+}
+
+/* VOTING SECTION */
+.ratingContainer {
+	height:190px;
+	background:#efefef;
+	width:300px;
+	padding-top:5px;
+	border-radius:10px;
+	padding-right:0px;
+	margin-bottom:15px;
+}
+
+#votingSection {
+	height:420px;
+	padding-bottom:20px;
+	width:280px;
+}
+
+.votingSectionHeader {
+	border-bottom:5px solid #0099cc;
+	font-size:18px;
+	padding: 0px 0px 3px;
+	margin-bottom:10px;
+	font-weight:bold;
+}
+
+#votingSection a, #votingSectionDetails a, .adInfo a {
+	color:#CC3333;
+	text-decoration:underline;
+}
+
+#votingSection h2 {
+	font-size:18px;
+	color:#999;	
+	margin-left:20px;
+}
+
+#believabilityRating {
+	text-align:center;
+}
+
+#believabilityRating h3, #believabilityRating2 h3 {
+	font-size:50px;
+	color:#0099cc;
+	height:60px;
+	display:inline-block;
+}
+
+#believabilityRating #yourRating {
+	width:65px;
+	float:left;
+	position:relative;
+	padding-left:50px;
+	padding-right:90px;
+}
+#believabilityRating2 #yourRating {
+	width:85px;
+	float:left;
+	position:relative;
+	padding-left:40px;
+	padding-right:80px;
+}
+
+#believabilityRating #overallRating {
+	width:50px;
+	float:left;
+	position:relative;
+	
+}
+
+#impactRating {
+	text-align:center;
+}
+#impactRating h3{
+	font-size:50px;
+	color:#CC3333;
+	display:inline-block;
+	height:60px;
+}
+
+#impactRating #yourRating {
+	width:65px;
+	float:left;
+	position:relative;
+	padding-left:50px;
+	padding-right:90px;
+}
+
+#impactRating #overallRating {
+	width:50px;
+	float:left;
+	position:relative;
+}
+
+.vote-save-button {
+	clear:both;
+	margin-left:30px;
+	position:relative;
+	height:20px;
+	padding-top:10px;
+}
+
+.vote-enabled{
+	cursor:pointer;
+}
+
+.vote-value{
+	float:left;
+}
+
+.vote-increase-btn{
+	float:right;
+	margin-top:10px;
+}
+
+.vote-decrease-btn{
+	float:right;
+	margin-top:2px;
+	margin-left:10px;
+}
+
+.vote-decrease-btn.vote-disabled{
+	visibility:hidden;
+}
+
+.vote-increase-btn.vote-disabled{
+	visibility:hidden;
+}
+
+.whatsthis {
+	float:right;
+	margin-right:10px;
+}
+
+.textualRating {
+	float:left;
+	position:relative;
+	margin-right:25px;
+	margin-left:5px;
+	width:120px;
+	font-size:10px;
+}
+
+.overallTextualRating {
+	width:60px;
+	float:left;
+	margin-left:50px;
+	font-size:10px;
+}
+
+.ratingHeader {
+	float:left;
+	position:relative;
+	margin-right:70px;
+	margin-left:40px;
+	font-size:14px;
+	font-weight:bold;
+}
+
+.overallRatingHeader {
+	font-weight:bold;
+}
+
+#votingDetailsAd {
+	margin-top: 25px;
+}
+
+/* VIDEO RESULT LISTS */
+
+.adVideoList li{
+	margin-right:7px;
+	margin-bottom:25px;
+	display:inline;
+	float:left;	
+}
+
+.adVideoListSq li{
+	margin-right:7px;
+	margin-bottom:25px;
+	display:inline;
+	float:left;	
+	width:200px;
+	height:250px;   /* Depends on video title length */
+	position:relative;
+}
+.adVideoList li.third {
+	margin-right:0px;
+}
+
+.adVideoList li p {
+	line-height:0.5;
+	font-weight:bold;
+}
+
+.adVideoList li .adCandidate {
+	font-size:12px;
+	font-weight:normal;
+}
+
+.adVideoListWide {
+	padding-bottom:25px;
+	margin-top:15px;
+}
+
+.adVideoListWide li{
+	margin-right:33px;
+	margin-bottom:35px;
+	display:inline;
+	float:left;	
+	position:relative;
+}
+
+.adVideoListWide li.fourth {
+	margin-right:0px;
+}
+
+.adVideoListWide li p {
+	line-height:.5;
+	font-weight:bold;
+}
+
+.adVideoListWide li .adCandidate {
+	font-size:12px;
+	font-weight:normal;
+}
+
+.adVideoListWide li h3 {
+	position:absolute;
+	left:-5px;
+	top:80px;
+}
+
+/* This is only used as a hack and can be removed when video browse pages are implemented. */
+.adVideoListWide li h3 .hide {
+	display:none;
+}
+
+.adVideoListWide li h3 .blue {
+	background:#0099cc;
+	color:#FFFFFF;
+	font-size:18px;
+	padding:5px;
+	display:inline-block;
+	width:20px;
+	text-align:center;
+}
+
+.adVideoListWide li h3 .red {
+	background:#CC3333;
+	color:#FFFFFF;
+	font-size:18px;
+	padding:5px;
+	display:inline-block;
+	width:20px;
+	text-align:center;
+}
+
+.adVideoListGreyLine {
+	margin:25px 0px 5px 0px;
+	border-bottom:1px solid #666;
+}
+
+.pageNumbers {
+	float:right;
+	margin-bottom:100px;
+}
+
+.pageNumbers a {
+	color:#333;
+	padding:0px 5px 0px 5px;
+}
+
+.pageNumbers .currentPage {
+	font-weight:bold;
+	color:#CC3333;
+	text-decoration:underline;
+}
+
+/* MISC DECORATIONS */ 
+
+.redline {
+	border-bottom:5px solid #CC3333;
+	padding:0px 5px 0px 5px;
+	margin-bottom:10px;
+}
+
+.blueline {
+	border-bottom:5px solid #0099cc;
+	padding:0px 5px 0px 5px;
+	margin-bottom:10px;
+}
+
+.election-content .adVideoListSq li p.adTitle {
+	line-height:1.4;
+	margin:10px 0;
+	font-size:13px;
+}
+.election-content .adVideoListSq li p.adTitle a {
+	text-decoration:none;
+	padding-top:10px;
+}
+.election-content .adVideoListSq li p.adCandidate {
+	line-height:0.5;
+	margin:10px 0;
+	font-size:12px;
+}
+.adTitle {
+	color:#0099cc;
+	font-size:24px;
+	font-weight:bold;
+	padding-top:8px;
+}
+
+.adMainTitle {
+	font-weight:normal;
+	padding-bottom:5px;
+	border-bottom:1px solid #666666;
+}
+
+.adSectionViewAll {
+	float:right;
+	font-size:14px;
+	text-decoration:none;
+	color:#CC3333;
+}
+
+.readMoreRed a {
+	color:#CC3333;
+	text-decoration:underline;
+}
+
+.breadcrumb  {
+	font-weight:bold;
+	color:#666;
+	margin:15px 0px 15px 0px;
+	padding-left:0px;
+	font-size:14;
+}
+
+.special_head .breadcrumb{
+	padding-left:10px;
+}
+
+.breadcrumb span {
+	color:#CC3333;
+}
+
+.breadcrumb a {
+	text-decoration:underline;
+	color:#666;
+}
+
+
+/* SEARCH FORM */
+
+.campaign-ad-filter {
+	margin-bottom:15px;
+}
+
+.campaign-ad-filter-label {
+	font-size:16px;
+	color:#666666;
+}
+
+.campaign-ad-filter select {
+	width:160px;
+	margin-right:10px;
+}
+
+
+/* SPECIAL HEADER */
+
+.special_head {
+    background: none repeat scroll 0 0 #FFFFFF;
+    margin: 15px 0;
+    position: relative;
+}
+
+.special_head h1 {
+    font-size: 28px;
+    font-weight: bold;
+    letter-spacing: -1px;
+    line-height: 28px;
+    margin: 0 0 12px 10px;
+    padding: 5px 0 0;
+    position: relative;
+}
+
+.special_head p {
+    color: #333333;
+    float: left;
+    font-size: 14px;
+    line-height: 21px;
+    margin: 5px 0 20px 15px;
+}
+
+.special_head .partnership-logo{
+	float:right;
+	margin-right:450px;
+}
+
+.special_head .info-extras {
+    background: none repeat scroll 0 0 transparent;
+    clear: both;
+    display: block;
+    height: 20px;
+    margin: 0;
+    overflow: visible;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 385px;
+}
+
+.special_head .rounded {
+    border: medium none;
+}
+
+.special_head .narrow_header {
+    float: left;
+}
+
+/* AD DUMMY */
+
+.adDummy {
+	margin-top: 25px;
+	margin-bottom:40px;
+}
+/***************************/
+/******** OVERRIDES ********/
+/***************************/
+.adVideoListSq .video-dark {
+	width:200px;
+	height:190px;
+}
+.adVideoListSq .video-play {
+	position:absolute !important;
+	left:87px !important;
+	top:67px !important;
+}
+.topVotedAd .video-dark {
+	width:300px;
+	height:190px;
+}
+.topVotedAd .video-play {
+	position:absolute !important;
+	left:132px !important;
+	top:67px !important;
+}
+.topVotedAd h3 {
+	z-index:3;
+}
+.election-content .video-thumb, .topVotedAd .video-thumb {
+	margin-bottom:5px;
+}

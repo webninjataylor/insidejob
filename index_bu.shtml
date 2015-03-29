@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html>
+<head>
+<!-- PRIVATE -->
+<meta name=”robots” content=”noindex, nofollow” />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<!-- Set the page to render on iPhones via the screen size instead of 980px -->
+<meta name="viewport" content="initial-scale=1.0, width=device-width" />
+<title>TEST</title>
+<link rel="stylesheet" type="text/css" media="screen" href="assets/css/main.css" />
+<link type="text/css" href="/assets/js/jqueryui/css/smoothness/jquery-ui-1.8.18.custom.css" rel="stylesheet" />
+<!--[if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+<style>
+.ui-draggable-dragging {
+	border:1px solid #ff0000;
+	z-index:2012;
+}
+#selectable .ui-selecting {
+	background: #FECA40;
+}
+#selectable .ui-selected {
+	background: #F39814;
+	color: white;
+}
+#selectable {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	width: 60%;
+}
+#selectable li {
+	margin: 3px;
+	padding: 0.4em;
+	font-size: 1.4em;
+	height: 18px;
+}
+#sortable {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	width: 60%;
+}
+#sortable li {
+	margin: 0 3px 3px 3px;
+	padding: 0.4em;
+	padding-left: 1.5em;
+	font-size: 1.4em;
+	height: 18px;
+}
+#sortable li span {
+	position: absolute;
+	margin-left: -1.3em;
+}
+#animateme {
+	-webkit-transition: all 1s ease-in-out;
+	-moz-transition: all 5s ease-in-out;
+	-o-transition: all 1s ease-in-out;
+	-ms-transition: all 1s ease-in-out;
+	transition: all 1s ease-in-out;
+}
+#animateme {
+  transition-property: top, left;
+  transition-duration: 1s, 1s;
+  transition-delay: 0s, 1s;
+}
+
+
+
+
+#slide1_controls span {
+	padding-right:2em;
+	cursor:pointer;
+}
+#slide1_container {
+	width:450px;
+	height:281px;
+	overflow:hidden;
+	position:relative;
+}
+#slide1_images {
+	position:absolute;
+	left:0px;
+	width:1800px;
+	-webkit-transition:all 1.0s ease-in-out;
+	-moz-transition:all 1.0s ease-in-out;
+	-o-transition:all 1.0s ease-in-out;
+	-ms-transition:all 1.0s ease-in-out;	
+	transition:all 1.0s ease-in-out;
+}
+#slide1_images img {
+	padding:0;
+	margin:0;
+	float:left;
+}
+</style>
+</head>
+<body>
+<header>Header</header>
+<div id="tabs">
+  <ul>
+    <li><a href="#tabs-1">First</a></li>
+    <li><a href="#tabs-2">Second</a></li>
+    <li><a href="#tabs-3">Third</a></li>
+  </ul>
+  <div id="tabs-1">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+    <article id="animateme">Block 4</article>
+    <ul id="sortable">
+      <li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>Item 1</li>
+      <li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>Item 2</li>
+      <li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>Item 3</li>
+      <li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>Item 4</li>
+      <li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>Item 5</li>
+      <li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>Item 6</li>
+      <li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>Item 7</li>
+    </ul>
+  </div>
+  <div id="tabs-2">Phasellus mattis tincidunt nibh. Cras orci urna, blandit id, pretium vel, aliquet ornare, felis. Maecenas scelerisque sem non nisl. Fusce sed lorem in enim dictum bibendum.
+    <article>Block 5</article>
+    <article>Block 6</article>
+  </div>
+  <div id="tabs-3">Nam dui erat, auctor a, dignissim quis, sollicitudin eu, felis. Pellentesque nisi urna, interdum eget, sagittis et, consequat vestibulum, lacus. Mauris porttitor ullamcorper augue.
+    <ol id="selectable">
+      <li class="ui-widget-content">Item 1</li>
+      <li class="ui-widget-content">Item 2</li>
+      <li class="ui-widget-content">Item 3</li>
+      <li class="ui-widget-content">Item 4</li>
+      <li class="ui-widget-content">Item 5</li>
+      <li class="ui-widget-content">Item 6</li>
+      <li class="ui-widget-content">Item 7</li>
+    </ol>
+  </div>
+</div>
+<section>
+  <h1>Section Title</h1>
+  <article><span class="ui-icon ui-icon-star"></span>Block 1</article>
+  <article class="snap">Block 2</article>
+  <article>Block 3</article>
+  <div id="accordion">
+    <h3><a href="#">Section 1</a></h3>
+    <div>
+      <p> Mauris mauris ante, blandit et, ultrices a, suscipit eget, quam. Integer
+        ut neque. Vivamus nisi metus, molestie vel, gravida in, condimentum sit
+        amet, nunc. Nam a nibh. Donec suscipit eros. Nam mi. Proin viverra leo ut
+        odio. Curabitur malesuada. Vestibulum a velit eu ante scelerisque vulputate. </p>
+    </div>
+    <h3><a href="#">Section 2</a></h3>
+    <div>
+      <p> Sed non urna. Donec et ante. Phasellus eu ligula. Vestibulum sit amet
+        purus. Vivamus hendrerit, dolor at aliquet laoreet, mauris turpis porttitor
+        velit, faucibus interdum tellus libero ac justo. Vivamus non quam. In
+        suscipit faucibus urna. </p>
+    </div>
+    <h3><a href="#">Section 3</a></h3>
+    <div>
+      <p> Nam enim risus, molestie et, porta ac, aliquam ac, risus. Quisque lobortis.
+        Phasellus pellentesque purus in massa. Aenean in pede. Phasellus ac libero
+        ac tellus pellentesque semper. Sed ac felis. Sed commodo, magna quis
+        lacinia ornare, quam ante aliquam nisi, eu iaculis leo purus venenatis dui. </p>
+      <ul>
+        <li>List item one</li>
+        <li>List item two</li>
+        <li>List item three</li>
+      </ul>
+    </div>
+    <h3><a href="#">Section 4</a></h3>
+    <div>
+      <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post" id="addtopaypal">
+      <!--
+        <input type="hidden" name="on1" value="Color" />
+        <select name="os1" id="wrapcolor">
+          <option value="No Color Selected" selected="selected">Color 1...</option>
+          <option value="Purple">Purple</option>
+          <option value="Orange">Orange</option>
+          <option value="White">White</option>
+          <option value="Black">Black</option>
+          <option value="Navy">Navy</option>
+        </select>-->
+        
+        
+        <!--
+        <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+<input type="hidden" name="cmd" value="_cart">
+<input type="hidden" name="business" value="webninjataylor@gmail.com">
+<input type="hidden" name="lc" value="US">
+<input type="hidden" name="item_name" value="Test">
+<input type="hidden" name="item_number" value="123">
+<input type="hidden" name="button_subtype" value="products">
+<input type="hidden" name="no_note" value="0">
+<input type="hidden" name="currency_code" value="USD">
+<input type="hidden" name="tax_rate" value="1.000">
+<input type="hidden" name="shipping" value="0.00">
+<input type="hidden" name="add" value="1">
+<input type="hidden" name="bn" value="PP-ShopCartBF:btn_cart_LG.gif:NonHostedGuest">
+<table>
+<tr><td><input type="hidden" name="on0" value="Colors">Colors</td></tr><tr><td><select name="os0">
+	<option value="Red">Red $1.00 USD</option>
+	<option value="Yellow">Yellow $2.00 USD</option>
+	<option value="Blue">Blue $3.00 USD</option>
+</select> </td></tr>
+</table>
+<input type="hidden" name="currency_code" value="USD">
+<input type="hidden" name="option_select0" value="Red">
+<input type="hidden" name="option_amount0" value="1.00">
+<input type="hidden" name="option_select1" value="Yellow">
+<input type="hidden" name="option_amount1" value="2.00">
+<input type="hidden" name="option_select2" value="Blue">
+<input type="hidden" name="option_amount2" value="3.00">
+<input type="hidden" name="option_index" value="0">
+<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+</form>
+
+        -->
+        <input type="hidden" name="on0" value="Size">Size
+        <select name="os0">
+            <option value="Tiny">S $1.00 USD</option>
+            <option value="Regular">M $2.00 USD</option>
+            <option value="Grande">G $3.00 USD</option>
+        </select>
+        <input type="hidden" name="currency_code" value="USD" />
+        <input type="hidden" name="option_select0" value="Tiny" />
+        <input type="hidden" name="option_amount0" value="1.00" />
+        <input type="hidden" name="option_select1" value="Regular" />
+        <input type="hidden" name="option_amount1" value="2.00" />
+        <input type="hidden" name="option_select2" value="Grande" />
+        <input type="hidden" name="option_amount2" value="3.00" />
+        <input type="hidden" name="option_index" value="0" />
+        
+        <input type="hidden" name="on1" value="Wrap Color" />
+    <select name="os1" id="wrapcolor">
+    	<option value="none" selected="selected">Choose a Wrap Color...</option>
+    	<option value="Light Pink">Light Pink</option>
+    	<option value="Hot Pink">Hot Pink</option>
+    	<option value="Electric Blue">Electric Blue</option>
+    	<option value="Lime Green">Lime Green</option>
+    	<option value="Purple">Purple</option>
+    	<option value="Orange">Orange</option>
+    	<option value="White">White</option>
+    	<option value="Black">Black</option>
+    	<option value="Navy">Navy</option>
+    </select>
+   
+        <!--
+        Add a corresponding option_select0 and option_amount0 variable for each priced option. Priced options are supported only for Buy Now and Add to Cart buttons. Only one dropdown menu option selection can have priced options.
+        
+        <select name="amount" style="width:150px;font:9px;margin-top:4px">
+			<option value="35.00">Small - $35.00</option>
+            <option value="55.00">Medium - $55.00</option>
+            <option value="75.00">Large - $75.00</option>
+        </select>
+        <input type="hidden" name="on0" value="Small">
+        <input type="hidden" name="os0" value="Item Details or Name">
+        <input type="hidden" name="on1" value="Medium">
+        <input type="hidden" name="os1" value="Item Details or Name">
+        <input type="hidden" name="on2" value="Large">
+        <input type="hidden" name="os2" value="Item Details or Name">
+        <input type="hidden" name="option_select0" value="Small" />
+        <input type="hidden" name="option_select1" value="Mediumn" />
+        <input type="hidden" name="option_select2" value="Large" />
+    -->
+        <input type="hidden" name="business" value="webninjataylor@gmail.com" />
+        <input type="hidden" name="cmd" value="_cart" />
+        <input type="hidden" name="add" value="1" />
+        <input type="hidden" id="item_name" name="item_name" value="Towel Wrap" />
+        <input type="hidden" name="quantity" value="1" />
+        <input type="hidden" name="no_shipping" value="2" />
+        <input type="hidden" name="currency_code" value="USD" />
+        <input type="hidden" name="shopping_url" value="http://webninjataylor.com/development/trend/towelwraps.php" />
+        <input type="hidden" name="cancel_return" value="http://webninjataylor.com/development/trend/towelwraps.php" />
+        <input type="hidden" name="return" value="http://webninjataylor.com/development/trend/towelwraps.php" />
+        <input type="submit" name="addtocart" value="Add to Cart" />
+      </form>
+    </div>
+  </div>
+  <div id="slide1_container">
+	<div id="slide1_images">
+		<img src="/assets/images/Cirques.jpg" />
+		<img src="/assets/images/Clown%20Fish.jpg" />
+		<img src="/assets/images/Stones.jpg" />
+		<img src="/assets/images/Summit.jpg" />		
+	</div>
+</div>
+<p id="slide1_controls">
+	<span id="slide1-1">Image 1</span>
+	<span id="slide1-2">Image 2</span>
+	<span id="slide1-3">Image 3</span>
+	<span id="slide1-4">Image 4</span>
+</p>	
+</section>
+<aside>Tools</aside>
+<footer>Footer</footer>
+<script type="text/javascript" src="/assets/js/jqueryui/js/jquery-1.7.1.min.js"></script>
+<script type="text/javascript" src="/assets/js/jqueryui/js/jquery-ui-1.8.18.custom.min.js"></script>
+<script language="javascript">
+	// Load Check
+	$(function(){
+		$('#tabs').tabs().resizable();
+		$('article').draggable();
+		$('article.snap').draggable({revert: 'invalid'});
+		$('#selectable').selectable();
+		$('#sortable').sortable();
+		$('#sortable').disableSelection();
+		$('#accordion').accordion();
+	});
+	
+	
+	$(document).ready(function() {
+		$("#slide1-1").click(function() {
+			$("#slide1_images").css("left","0");
+		});
+		$("#slide1-2").click(function() {
+			$("#slide1_images").css("left","-450px");
+		});
+		$("#slide1-3").click(function() {
+			$("#slide1_images").css("left","-900px");
+		});
+		$("#slide1-4").click(function() {
+			$("#slide1_images").css("left","-1350px");
+		});
+	});
+</script>
+</body>
+</html>

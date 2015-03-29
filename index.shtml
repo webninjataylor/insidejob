@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html>
+<head>
+<!-- PRIVATE -->
+<meta name="robots" content="noindex, nofollow" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<!-- Set the page to render on iPhones via the screen size instead of 980px -->
+<meta name="viewport" content="initial-scale=1.0, width=device-width" />
+<title>InsideJob</title>
+<link rel="stylesheet" type="text/css" media="screen" href="assets/css/main.css" />
+<link type="text/css" href="/assets/js/jqueryui/css/smoothness/jquery-ui-1.8.18.custom.css" rel="stylesheet" />
+<link rel="stylesheet" type="text/css" href="/assets/js/tool-tip/tipTip.css" />
+<!--[if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+</head>
+<body>
+<table id="fpo-fbchrome" cellpadding="0" cellspacing="0" width="100%">
+	<tr style="background:url('assets/images/fpo-fbbar-fill.gif') repeat-x top left;">
+  	<td><img src="assets/images/fpo-fbbar-left.gif" style="float:left;" /></td>
+    <td width="279"><img src="assets/images/fpo-fbbar-right.gif" style="float:right;" /></td>
+  </tr>
+  <tr>
+  	<td valign="top">
+    	<div id="iframe">
+        <header><h1>Do what you love.  <span style="color:#5382ba;">Inside Job.</span></h1></header>
+        <div id="tabs">
+          <ul>
+            <li><a href="#tabs-1">People</a></li>
+            <li><a href="#tabs-2">Job Postings</a></li>
+            <li><a href="#tabs-3">Taylor Johnson</a></li>
+          </ul>
+          <div id="tabs-1" class="tab-content">
+          	SEARCH
+            <article class="snap">
+            	<img src="assets/images/avatar1.jpg" />
+            	<h3>CEO</h3>
+              <div class="icon" title="View Resume">K</div>
+              <div class="icon" title="View Portfolio">S</div>
+              <div class="icon" title="Awards">)</div>
+            </article>
+            <article class="snap">
+            	<img src="assets/images/avatar2.jpg" />
+            	<h3>Fashion Designer</h3>
+              <div class="icon" title="View Resume">K</div>
+              <div class="icon" title="View Portfolio">S</div>
+              <div class="icon" title="Awards">)</div>
+            </article>
+            <article class="snap">
+            	<img src="assets/images/avatar3.jpg" />
+            	<h3>Shipping</h3>
+              <div class="icon" title="View Resume">K</div>
+              <div class="icon" title="View Portfolio">S</div>
+              <div class="icon" title="Awards">)</div>
+            </article>
+            <article class="snap">
+            	<img src="assets/images/avatar4.jpg" />
+            	<h3>Jewelry Store<br /> Manager</h3>
+              <div class="icon" title="View Resume">K</div>
+              <div class="icon" title="View Portfolio">S</div>
+              <div class="icon" title="Awards">)</div>
+            </article>
+            <article class="snap">
+            	<img src="assets/images/avatar5.jpg" />
+            	<h3>Web Developer</h3>
+              <div class="icon" title="View Resume">K</div>
+              <div class="icon" title="View Portfolio">S</div>
+              <div class="icon" title="Awards">)</div>
+            </article>
+            <article class="snap">
+            	<img src="assets/images/avatar6.jpg" />
+            	<h3>Java Developer</h3>
+              <div class="icon" title="View Resume">K</div>
+              <div class="icon" title="View Portfolio">S</div>
+              <div class="icon" title="Awards">)</div>
+            </article>
+            <article class="snap">
+            	<img src="assets/images/avatar7.jpg" />
+            	<h3>Financial Analyst</h3>
+              <div class="icon" title="View Resume">K</div>
+              <div class="icon" title="View Portfolio">S</div>
+              <div class="icon" title="Awards">)</div>
+            </article>
+            <article class="snap">
+            	<img src="assets/images/avatar8.jpg" />
+            	<h3>Security Guard</h3>
+              <div class="icon" title="View Resume">K</div>
+              <div class="icon" title="View Portfolio">S</div>
+              <div class="icon" title="Awards">)</div>
+            </article>
+            <article class="snap">
+            	<img src="assets/images/avatar9.jpg" />
+            	<h3>Actor</h3>
+              <div class="icon" title="View Resume">K</div>
+              <div class="icon" title="View Portfolio">S</div>
+              <div class="icon" title="Awards">)</div>
+            </article>
+            <article class="snap">
+            	<img src="assets/images/avatar10.jpg" />
+            	<h3>Pharmacy Tech</h3>
+              <div class="icon" title="View Resume">K</div>
+              <div class="icon" title="View Portfolio">S</div>
+              <div class="icon" title="Awards">)</div>
+            </article>
+            <article class="snap">
+            	<img src="assets/images/avatar11.jpg" />
+            	<h3>Chemist</h3>
+              <div class="icon" title="View Resume">K</div>
+              <div class="icon" title="View Portfolio">S</div>
+              <div class="icon" title="Awards">)</div>
+            </article>
+            <article class="snap">
+            	<img src="assets/images/avatar12.jpg" />
+            	<h3>Theater Critic</h3>
+              <div class="icon" title="View Resume">K</div>
+              <div class="icon" title="View Portfolio">S</div>
+              <div class="icon" title="Awards">)</div>
+            </article>
+            <article class="snap">
+            	<img src="assets/images/avatar13.jpg" />
+            	<h3>Divorce Lawyer</h3>
+              <div class="icon" title="View Resume">K</div>
+              <div class="icon" title="View Portfolio">S</div>
+              <div class="icon" title="Awards">)</div>
+            </article>
+            <article class="snap">
+            	<img src="assets/images/avatar14.jpg" />
+            	<h3>Lumberjack</h3>
+              <div class="icon" title="View Resume">K</div>
+              <div class="icon" title="View Portfolio">S</div>
+              <div class="icon" title="Awards">)</div>
+            </article>
+            <article class="snap">
+            	<img src="assets/images/avatar15.jpg" />
+            	<h3>Birthday Clown</h3>
+              <div class="icon" title="View Resume">K</div>
+              <div class="icon" title="View Portfolio">S</div>
+              <div class="icon" title="Awards">)</div>
+            </article>
+            <article class="snap">
+            	<img src="assets/images/avatar16.jpg" />
+            	<h3>Wedding Planner</h3>
+              <div class="icon" title="View Resume">K</div>
+              <div class="icon" title="View Portfolio">S</div>
+              <div class="icon" title="Awards">)</div>
+            </article>
+            <article class="snap">
+            	<img src="assets/images/avatar17.jpg" />
+            	<h3>Lifeguard</h3>
+              <div class="icon" title="View Resume">K</div>
+              <div class="icon" title="View Portfolio">S</div>
+              <div class="icon" title="Awards">)</div>
+            </article>
+            <article class="snap">
+            	<img src="assets/images/avatar18.jpg" />
+            	<h3>Winemaker</h3>
+              <div class="icon" title="View Resume">K</div>
+              <div class="icon" title="View Portfolio">S</div>
+              <div class="icon" title="Awards">)</div>
+            </article>
+            <article class="snap">
+            	<img src="assets/images/avatar19.jpg" />
+            	<h3>Sr. eCommerce<br /> Developer</h3>
+              <div class="icon" title="View Resume">K</div>
+              <div class="icon" title="View Portfolio">S</div>
+              <div class="icon" title="Awards">)</div>
+            </article>
+            <article class="snap">
+            	<img src="assets/images/avatar20.jpg" />
+            	<h3>Dream Interpreter</h3>
+              <div class="icon" title="View Resume">K</div>
+              <div class="icon" title="View Portfolio">S</div>
+              <div class="icon" title="Awards">)</div>
+            </article>
+            
+            
+            
+          </div>
+          <div id="tabs-2" class="tab-content">
+          	Job postings with related postings first?
+            Companies you are following?
+            <ul id="sortable">
+              <li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>Item 1</li>
+              <li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>Item 2</li>
+              <li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>Item 3</li>
+              <li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>Item 4</li>
+              <li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>Item 5</li>
+              <li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>Item 6</li>
+              <li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>Item 7</li>
+            </ul>
+            <article style="background-color:#5382ba;">Primary</article>
+            <article style="background-color:#ffff99;">Secondary</article>
+            <article style="background-color:#fffcda; clear:left;">Tertiary <p style="color:#E3675C; font-weight:bold;">* Error</p></article>
+            <article style="background-color:#bcbaa0;">Tertiary</article>
+            <article style="background-color:#9D9B86;">Tertiary</article>
+            <article style="background-color:#737262;">Tertiary</article>
+            <article style="background-color:#4c4b41;">Tertiary</article>
+            
+            <div class="icon" title="View Resume" style="clear:left;">K</div>
+            <div class="icon" title="View Portfolio">S</div>
+            <div class="icon" title="Star Rating">***</div>
+            <div class="icon" title="Awards">)</div>
+            <div class="icon" title="Skills">(</div>
+            <div class="icon" title="Location">,</div>
+            <div class="icon" title="TBD" style="clear:left;">4 6 7 8 m r $ f k b c U G O A 5 B</div>
+          </div>
+          <div id="tabs-3" class="tab-content">
+          	<h3>Profile</h3>
+          </div>
+        </div>
+        <footer>Copyright &copy; 2012 InsideJob. All rights reserved.</footer>
+      </div>
+    </td>
+    <td valign="top" style="background:url('assets/images/fpo-fbads-fill.gif') repeat-y top left;"><img src="assets/images/fpo-fbads.jpg" /></td>
+  </tr>
+  <tr>
+  	<td><img src="assets/images/fpo-fbfooter.gif" /></td>
+    <td><img src="assets/images/fpo-fbchat.gif" /></td>
+  </tr>
+</table>
+<script type="text/javascript" src="/assets/js/jqueryui/js/jquery-1.7.1.min.js"></script>
+<script type="text/javascript" src="/assets/js/jqueryui/js/jquery-ui-1.8.18.custom.min.js"></script>
+<script type="text/javascript" src="/assets/js/tool-tip/jquery.tipTip.js"></script>
+<script type="text/javascript" src="assets/js/main.js"></script>
+</body>
+</html>
+<!--
+Sports Figure
+Star Trek
+-->
